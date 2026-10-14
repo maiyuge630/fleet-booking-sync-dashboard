@@ -128,10 +128,12 @@ How I used AI: the code (the dashboard, phone service, platform readers, calenda
 
 What I learned:
 
-- A change being saved isn't the same as it actually showing up on the platform. So the system only counts something as done after it reads the calendar back.
-- When a page doesn't load, that tells you nothing about the order. The system keeps the last complete data and says it couldn't update.
-- The AI assistants follow my rules very literally, so a vague rule gives wrong results. A lot of my work turned out to be writing the rules exactly.
-- Using the official app was slower than getting around the bot check, but I'd rather do it the way the platform allows.
+- The first error message isn't always right. On 14 Sept the program said Boataround had logged us out, but I knew the phone had the password saved, and it turned out the program was looking in the wrong browser. Now when something says it failed, I check what actually happened before I believe it.
+- A page that doesn't load tells you nothing about the order. If the system treated it as a cancellation, it could reopen dates on a boat that's actually booked. So we made the system keep the last complete data and say it couldn't update, instead of guessing.
+- Other people's systems change without telling you. The booking that wasn't on the dashboard turned out to be fine, but the missed cancellation happened because NauSYS changes a column we relied on. What saved us was that the dashboard showed a warning, and I noticed it.
+- The AI does exactly what I say, not what I mean. When I said turnover days don't count as overlaps, or that staff blocks must never be deleted, that's exactly what it built. Vague rules gave wrong results, so a lot of my work was explaining exactly what I meant.
+- The people using it aren't programmers. The owner and staff need to see what's wrong and where at a glance, which is why the redesign puts the status and links right next to the Sync button.
+- Using the official Click&Boat app was slower than getting around the bot check, but I'd rather do it the way the platform allows.
 
 Next steps:
 
