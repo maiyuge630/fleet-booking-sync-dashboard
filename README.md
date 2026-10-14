@@ -124,18 +124,17 @@ Each item: **problem → my judgment → result.** Dates are from the project's 
 
 ## My role and use of AI
 
-I started this project in May 2026. I built it with AI coding assistants — first **OpenAI Codex**, later **Anthropic Claude Code** (from late September 2026). To be clear about who did what:
+I started this project in May 2026 and still run it. I decide what it must do, set its rules, design how it looks, test it on our real platforms, and keep it running for the business. The owner and almost all of our staff use it.
 
-**Written by AI (under my direction):** almost all of the code in this repository — the dashboard, the phone service, the platform readers and calendar sync, the 1,580 tests, the deployment scripts — and most of the internal maintenance notes. I did not write most of the code by hand.
+**What I did**
+- **Product and rules.** I defined what the system must do and its business rules: what counts as a real booking on each platform, "close-only" when a source is uncertain, never touching staff-made blocks, and how revenue is counted and shown.
+- **Key decisions.** I moved the work from a cloud browser to a phone, chose the official Click&Boat app over fighting bot protection, added MMK and NauSYS as order sources, and added battery voltage.
+- **Interface design.** I laid out the dashboard (for example, revenue shows the total first and details on click) and chose the notebook-and-mascot redesign.
+- **Testing and debugging.** I approved and checked live tests on real platform calendars, compared results with the platforms, and reported problems with screenshots — several of the iterations above started from something I noticed.
+- **Operations.** I set up and look after the phone, and keep the system running for the business.
+- **Audit.** On 10 Oct 2026 I had every platform's back office compared order by order with the dashboard: all 40 active orders matched.
 
-**Done by me:**
-- Defined what the system must do and the business rules: what counts as a real booking on each platform, "close-only", never touching staff-made blocks, how revenue is counted and shown.
-- Made the key decisions: moving from the cloud browser to a phone, using the official Click&Boat app instead of fighting bot protection, adding NauSYS and MMK as order sources, adding battery voltage.
-- Designed the interface and its information layout (for example, revenue shows the total first and details on click), and chose the notebook/mascot visual direction.
-- Tested on the real system: approved and checked live tests on real platform calendars, compared results with the platforms, and reported problems with screenshots — several of the iterations above started from something I noticed.
-- Set up and look after the phone, and keep the system running for the business. The owner and almost all staff use the dashboard.
-
-An independent check on 10 Oct 2026 — the AI assistant compared every platform's back office with the dashboard at my request — matched all 40 active orders.
+**How I used AI:** The code — dashboard, phone service, platform readers, calendar sync, the 1,580 tests and the deployment scripts — was written by AI coding assistants (**OpenAI Codex**, then **Anthropic Claude Code** from late September 2026) from my requirements. I did not write most of the code by hand.
 
 ## What I learned / Next steps
 
