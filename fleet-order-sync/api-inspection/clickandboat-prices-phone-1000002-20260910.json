@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-09-10T00:21:16Z",
+  "source": "clickandboat",
+  "observation_method": "Passive observation of the authorized phone browser's persistent profile while opening the matching booking detail; observed by the root deployment agent.",
+  "response": {
+    "method": "GET",
+    "url": "https://www.clickandboat.com/api/v6/booking/prices/1000002?_locale=en-GB",
+    "status": 200,
+    "content_type": "application/json",
+    "body": {
+      "tenantAlreadyPaidAmount": 3676,
+      "tenantBalancePaymentAmount": 2540,
+      "tenantTotalOnlineAmount": 6216
+    }
+  },
+  "matching_html_order": {
+    "source": "clickandboat",
+    "booking_id": "1000002",
+    "url": "https://www.clickandboat.com/uk/booking/1000002/detail",
+    "status": "accepted",
+    "start": "2026-11-07",
+    "end": "2026-11-13",
+    "amount": "€12,705.00",
+    "amount_basis": "船东净收入"
+  },
+  "schema_verification": {
+    "prices_top_level_keys": ["tenantAlreadyPaidAmount", "tenantBalancePaymentAmount", "tenantTotalOnlineAmount"],
+    "all_three_prices_values_are_numbers": true,
+    "v3_details_top_level_keys": ["status", "code", "message", "data"],
+    "raw_prices_currency_verified": false,
+    "currency_conversion_applied": false
+  },
+  "notes": [
+    "This is a sanitized real response, not a synthetic fixture.",
+    "No customer name, credentials, cookies, tokens, request headers, or private profile paths are recorded.",
+    "The v3 data currency fields were not inspected; no currency is inferred for the raw prices amounts.",
+    "The HTML owner-income amount is separate from the customer payment figures and must remain unchanged.",
+    "Accepted alone is not proof of payment; this response separately reports a positive tenantAlreadyPaidAmount."
+  ]
+}

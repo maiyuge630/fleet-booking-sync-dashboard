@@ -1,0 +1,212 @@
+{
+  "buttons": [
+    {
+      "current": null,
+      "disabled": false,
+      "outer": "<button type=\"button\" to=\"\" class=\"bg-none text-gray-500 hover:bg-gray-50 py-4 px-5 text-base uppercase relative inline-flex grow-0 h-fit transition-colors font-normal leading-none rounded-full disabled:cursor-default disabled:opacity-20\">1</button>",
+      "text": "1"
+    },
+    {
+      "current": null,
+      "disabled": false,
+      "outer": "<button type=\"button\" to=\"\" class=\"bg-none text-gray-500 hover:bg-gray-50 py-4 px-5 text-base uppercase relative inline-flex grow-0 h-fit transition-colors font-normal leading-none rounded-full disabled:cursor-default disabled:opacity-20\">2</button>",
+      "text": "2"
+    },
+    {
+      "current": null,
+      "disabled": false,
+      "outer": "<button type=\"button\" to=\"\" class=\"bg-blue-500 hover:bg-blue-600 text-white hover:text-white !ring-blue-400 py-4 px-5 text-base uppercase relative inline-flex grow-0 h-fit transition-colors font-normal leading-none rounded-full disabled:cursor-default disabled:opacity-20\">3</button>",
+      "text": "3"
+    }
+  ],
+  "footer": "t 2025\n2697 €\n17 August 2025 16:24\nCANCELLED\n#249827\nReef Cat 37 | Tidewyn Discovery\nDemo Marina\nshuhan yang\n14 Nov 203206 Nov 2025\n11,970 €\n12 August 2025 09:19\nCOMPLETED\n#249517\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina\nZhong yong\n20 Aug 203207 Aug 2025\n800 €\n11 August 2025 07:00\nCONFIRMED\n#248221\nReef Cat 37 | Tidewyn Discovery\nDemo Marina\nCrew list\nAlexandr Renter H22\n22 Nov 203214 Nov 2025\n12,570 €\n6 August 2025 05:44\nCANCELLED\n#246993\nReef Cat 37 | Tidewyn Discovery\nDemo Marina\nPernille Renter G21\n11 Oct 20258 Nov 2025\n36,234 €\n1 August 2025 08:19\n1\n2\n3",
+  "rows": [
+    {
+      "booking": "#255064\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "24 Oct 203212 Oct 2025",
+      "price": "900 €",
+      "status": "COMPLETED",
+      "times": [
+        {
+          "datetime": "2025-10-24T00:00:00.000Z",
+          "text": "24 Oct 2025"
+        },
+        {
+          "datetime": "2025-10-27T00:00:00.000Z",
+          "text": "27 Oct 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/8934046c9ba329180cb59c2c"
+    },
+    {
+      "booking": "#254671\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "25 Oct 20251 Nov 2025",
+      "price": "2,300 €",
+      "status": "CANCELLED",
+      "times": [
+        {
+          "datetime": "2025-10-25T00:00:00.000Z",
+          "text": "25 Oct 2025"
+        },
+        {
+          "datetime": "2025-11-01T00:00:00.000Z",
+          "text": "1 Nov 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/2bf5e6ac7b546e32b501ff37"
+    },
+    {
+      "booking": "#254071\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "3 Jan 203295 Jan 2026",
+      "price": "18,285 €",
+      "status": "COMPLETED",
+      "times": [
+        {
+          "datetime": "2026-01-03T00:00:00.000Z",
+          "text": "3 Jan 2026"
+        },
+        {
+          "datetime": "2026-01-10T00:00:00.000Z",
+          "text": "10 Jan 2026"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/5ec7f64a072d665de16ceedf"
+    },
+    {
+      "booking": "#253823\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina\nCrew list",
+      "dates": "15 Oct 203206 Oct 2025",
+      "price": "2,000 €",
+      "status": "CONFIRMED",
+      "times": [
+        {
+          "datetime": "2025-10-15T00:00:00.000Z",
+          "text": "15 Oct 2025"
+        },
+        {
+          "datetime": "2025-10-21T00:00:00.000Z",
+          "text": "21 Oct 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/7090051978207db27b4411c1"
+    },
+    {
+      "booking": "#252744\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "27 Jan 20266 Feb 2026",
+      "price": "8,200 €",
+      "status": "CANCELLED",
+      "times": [
+        {
+          "datetime": "2026-01-27T00:00:00.000Z",
+          "text": "27 Jan 2026"
+        },
+        {
+          "datetime": "2026-02-06T00:00:00.000Z",
+          "text": "6 Feb 2026"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/44c01d0f7254829d5eaa0a37"
+    },
+    {
+      "booking": "#251282\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina\nCrew list",
+      "dates": "1 Nov 20258 Nov 2025",
+      "price": "14,361 €",
+      "status": "COMPLETED",
+      "times": [
+        {
+          "datetime": "2025-11-01T00:00:00.000Z",
+          "text": "1 Nov 2025"
+        },
+        {
+          "datetime": "2025-11-08T00:00:00.000Z",
+          "text": "8 Nov 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/a01ddf7548947065a869d309"
+    },
+    {
+      "booking": "#251122\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "25 Oct 203213 Oct 2025",
+      "price": "2697 €",
+      "status": "CANCELLED",
+      "times": [
+        {
+          "datetime": "2025-10-25T00:00:00.000Z",
+          "text": "25 Oct 2025"
+        },
+        {
+          "datetime": "2025-10-28T00:00:00.000Z",
+          "text": "28 Oct 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/87d3df684e4ab682ad2d9ea9"
+    },
+    {
+      "booking": "#249827\nReef Cat 37 | Tidewyn Discovery\nDemo Marina",
+      "dates": "14 Nov 203206 Nov 2025",
+      "price": "11,970 €",
+      "status": "CANCELLED",
+      "times": [
+        {
+          "datetime": "2025-11-14T00:00:00.000Z",
+          "text": "14 Nov 2025"
+        },
+        {
+          "datetime": "2025-11-21T00:00:00.000Z",
+          "text": "21 Nov 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/e5a40f66aea1157f31c2aa09"
+    },
+    {
+      "booking": "#249517\nSeacat Open 40 | Tidewyn Discovery 2\nDemo Marina",
+      "dates": "20 Aug 203207 Aug 2025",
+      "price": "800 €",
+      "status": "COMPLETED",
+      "times": [
+        {
+          "datetime": "2025-08-20T00:00:00.000Z",
+          "text": "20 Aug 2025"
+        },
+        {
+          "datetime": "2025-08-22T00:00:00.000Z",
+          "text": "22 Aug 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/80df5db3893927952d482bed"
+    },
+    {
+      "booking": "#248221\nReef Cat 37 | Tidewyn Discovery\nDemo Marina\nCrew list",
+      "dates": "22 Nov 203214 Nov 2025",
+      "price": "12,570 €",
+      "status": "CONFIRMED",
+      "times": [
+        {
+          "datetime": "2025-11-22T00:00:00.000Z",
+          "text": "22 Nov 2025"
+        },
+        {
+          "datetime": "2025-11-29T00:00:00.000Z",
+          "text": "29 Nov 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/a7bef8a320e0dd4aaa788b65"
+    },
+    {
+      "booking": "#246993\nReef Cat 37 | Tidewyn Discovery\nDemo Marina",
+      "dates": "11 Oct 20258 Nov 2025",
+      "price": "36,234 €",
+      "status": "CANCELLED",
+      "times": [
+        {
+          "datetime": "2025-10-11T00:00:00.000Z",
+          "text": "11 Oct 2025"
+        },
+        {
+          "datetime": "2025-11-08T00:00:00.000Z",
+          "text": "8 Nov 2025"
+        }
+      ],
+      "url": "https://partner.boataround.com/en/000000000000000000000000/orders/dcada8c302adffc657127dec"
+    }
+  ]
+}

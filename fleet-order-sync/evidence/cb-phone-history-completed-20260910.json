@@ -1,0 +1,25 @@
+{
+  "observedAt": "2026-09-10T00:27:29.954Z",
+  "source": "clickandboat",
+  "observation": "Sanitized History rows observed by the root deployment agent in the authorized phone browser. Parent Accepted is rendered as a single visible Completed child after checkout.",
+  "rows": [
+    {
+      "id": "N°1274920",
+      "url": "https://www.clickandboat.com/uk/booking/1274920/detail",
+      "status": "Accepted",
+      "visibleStates": ["Completed"],
+      "boat_text": "Catamaran Wavecat 34 open 10.15mTidewyn Dream",
+      "date_text": "from 27 to 30 May 2026 (14:00 / 10:00)",
+      "amount": "€2,280"
+    },
+    {
+      "id": "N°1232398",
+      "url": "https://www.clickandboat.com/uk/booking/1232398/detail",
+      "status": "Accepted",
+      "visibleStates": ["Completed"],
+      "boat_text": "Catamaran Seacat 40 Open 11.98mTidewyn Discovery 2",
+      "date_text": "from 20 to 24 April 2026 (14:00 / 10:00)",
+      "amount": "€7,236"
+    }
+  ]
+}

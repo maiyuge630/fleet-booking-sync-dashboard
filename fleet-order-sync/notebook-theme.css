@@ -1,0 +1,117 @@
+/* 手账风看板（2026-10-13，方向 C）。只改外观：布局规则、颜色含义、日期和检测条件不变。
+   Light = cream notebook paper, dark = night notebook. Colours keep their old
+   meaning: red = booked/overlap, yellow = needs a look, green = fine. */
+:root{
+ --hand:"Kaiti SC","STKaiti","KaiTi","楷体",serif;
+ --r-card:20px 24px 18px 26px/24px 18px 26px 20px;
+ --r-small:10px 13px 9px 14px/13px 9px 14px 10px;
+ --r-btn:14px 18px 12px 18px/18px 12px 18px 14px;
+ --tape-clip:polygon(0 0,100% 0,96% 25%,100% 50%,96% 75%,100% 100%,0 100%,4% 75%,0 50%,4% 25%);
+ --bg:#f4eee1;--dot:rgba(118,98,62,.17);--card:#fffcf5;--field:#fffefb;--text:#2a2925;--muted:#5d584d;--line:#e0d6c2;--ink:#3a372f;--control:#857c6b;--soft:#f4eddd;
+ --accent:#1d6670;--accent-text:#fff;--booked:#f7d8d2;--booked-text:#86282b;--unavail:#f8e8b8;--unavail-text:#664508;--unavail-line:#c99a3b;--gap:#e3ebf1;--gap-text:#3d5870;--free:#e3f1e8;--free-text:#1f5a40;--free-line:#7fb59a;
+ --tape-a:rgba(126,196,170,.62);--tape-b:rgba(244,164,132,.55);--tape-c:rgba(242,206,96,.62);--tape-d:rgba(140,182,226,.6);--hl:rgba(242,206,96,.5);
+ --shade:rgba(84,64,32,.13);--btn-shadow:#3a372f;--sticker-edge:#fff;--bubble:#fffcf5;--alert:#b42332;--alert-bg:#fff4f1;
+}
+@media(prefers-color-scheme:dark){:root{
+ --bg:#1b1d1f;--dot:rgba(236,226,204,.075);--card:#25282b;--field:#1f2224;--text:#ece5d6;--muted:#b8b0a0;--line:#3f3c36;--ink:#9a917f;--control:#a39a88;--soft:#2e3134;
+ --accent:#8fd3d8;--accent-text:#0f2a2d;--booked:#4b2b2b;--booked-text:#ffd8d0;--unavail:#463818;--unavail-text:#f5dba0;--unavail-line:#a8843f;--gap:#263b4c;--gap-text:#dae7f3;--free:#203a2f;--free-text:#c3ecd6;--free-line:#5f9a7f;
+ --tape-a:rgba(126,196,170,.34);--tape-b:rgba(244,164,132,.32);--tape-c:rgba(242,206,96,.32);--tape-d:rgba(140,182,226,.34);--hl:rgba(214,170,60,.3);
+ --shade:rgba(0,0,0,.38);--btn-shadow:rgba(0,0,0,.6);--sticker-edge:#f3ecdc;--bubble:#25282b;--alert:#ff9aa8;--alert-bg:#3a2026;
+}}
+body{background-color:var(--bg);background-image:radial-gradient(circle,var(--dot) 1.1px,transparent 1.6px);background-size:22px 22px;background-position:11px 11px}
+
+/* Handwriting headings with a highlighter stroke. */
+h1,h2,.mascot-title{font-family:var(--hand)}
+h1{font-size:clamp(1.65rem,4.6vw,2.2rem);letter-spacing:.03em;line-height:1.3}
+h2{width:fit-content;max-width:100%;font-size:1.25rem;letter-spacing:.03em;padding:0 .25em;margin-left:-.25em;background:linear-gradient(transparent 58%,var(--hl) 58%,var(--hl) 90%,transparent 90%)}
+.brand{display:inline-block;background:var(--tape-a);color:var(--text);padding:3px 14px;margin:0 0 8px;transform:rotate(-2deg);clip-path:var(--tape-clip)}
+
+/* Header: title, the mascot with the sync button, logout. */
+.page-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,auto) auto;align-items:center;gap:14px 20px;margin-bottom:30px}
+.page-header>div:first-child{min-width:0}
+.logout-form{align-self:start}
+.mascot-station{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:0 14px;min-width:0;max-width:520px}
+.mascot-image{display:block;width:96px;height:96px;transform:rotate(-4deg);filter:drop-shadow(2px 0 0 var(--sticker-edge)) drop-shadow(-2px 0 0 var(--sticker-edge)) drop-shadow(0 2px 0 var(--sticker-edge)) drop-shadow(0 -2px 0 var(--sticker-edge)) drop-shadow(2px 3px 2px var(--shade))}
+.mascot-image:not([src]){visibility:hidden}
+.mascot-station[data-pose=busy] .mascot-image{animation:mascot-work 1.4s ease-in-out infinite}
+@keyframes mascot-work{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(-2deg) translateY(3px)}}
+.mascot-bubble{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 14px;min-width:0;background:var(--bubble);color:var(--text);border:1.5px solid var(--ink);border-radius:var(--r-card);padding:12px 14px 12px 16px;box-shadow:3px 3px 0 var(--shade)}
+.mascot-bubble::before{content:'';position:absolute;left:-8.5px;top:calc(50% - 7px);width:13px;height:13px;background:inherit;border-left:inherit;border-bottom:inherit;transform:rotate(45deg)}
+.mascot-copy{min-width:0}
+.mascot-title{display:block;font-size:1.125rem;font-weight:700;line-height:1.35}
+.mascot-detail{display:block;font-size:.8125rem;color:var(--muted);line-height:1.5;margin-top:2px;font-variant-numeric:tabular-nums}
+.mascot-items{list-style:none;margin:6px 0 0;padding:0;font-size:.8125rem;line-height:1.55}
+.mascot-items li{display:flex;gap:6px}
+.mascot-items li::before{content:'\2022';color:var(--alert);font-weight:800}
+.mascot-items a,.mascot-items a:visited{color:var(--text);text-decoration:underline;text-decoration-color:var(--alert);text-underline-offset:3px;overflow-wrap:anywhere}
+.mascot-station[data-tone=alert] .mascot-bubble{border:2px solid var(--alert);background:var(--alert-bg)}
+.mascot-station[data-tone=alert] .mascot-title{color:var(--alert)}
+/* Status reads disable the button for a fraction of a second; only a longer wait dims it. */
+.mascot-bubble #refreshBtn{white-space:nowrap;transition:opacity .15s ease .4s,transform .08s ease,box-shadow .08s ease}
+.mascot-empty{display:block;width:56px;height:56px;margin:4px 0 8px;transform:rotate(-5deg);filter:drop-shadow(1.5px 0 0 var(--sticker-edge)) drop-shadow(-1.5px 0 0 var(--sticker-edge)) drop-shadow(0 1.5px 0 var(--sticker-edge)) drop-shadow(0 -1.5px 0 var(--sticker-edge))}
+@media(prefers-reduced-motion:reduce){.mascot-station .mascot-image{animation:none!important}}
+
+/* Buttons: a pressable sticker edge. */
+button{border:1.5px solid var(--accent);border-radius:var(--r-btn);box-shadow:2px 2px 0 var(--btn-shadow);transition:transform .08s ease,box-shadow .08s ease}
+button:active:not(:disabled){transform:translate(2px,2px);box-shadow:0 0 0 transparent}
+button:disabled{box-shadow:none}
+.secondary{background:var(--card);color:var(--text);border-color:var(--ink)}
+@media(min-width:761px){.query-form{grid-template-columns:1fr 1fr auto}}
+.field input,.month-navigation select,.fleet-hold-fields input,.fleet-hold-fields select,.ba-hold-dates input{background:var(--field);color:var(--text);border:1.5px solid var(--control);border-radius:var(--r-small)}
+
+/* Paper cards, held on by a strip of tape. */
+.query-card,.revenue-panel,.fleet-hold-panel,.boatSection,.orders-panel,.result-card,.loading{background:var(--card);color:var(--text);border:1.5px solid var(--ink);border-radius:var(--r-card);box-shadow:3px 4px 0 var(--shade)}
+.query-card,.revenue-panel,.fleet-hold-panel,.boatSection{position:relative}
+.query-card::before,.revenue-panel::before,.fleet-hold-panel::before,.boatSection::before{content:'';position:absolute;top:-12px;left:50%;width:112px;height:24px;transform:translateX(-50%) rotate(-2.5deg);background:var(--tape-a);clip-path:var(--tape-clip);pointer-events:none}
+.query-card::before{left:64px;transform:translateX(-50%) rotate(-6deg);background:var(--tape-d)}
+.revenue-panel::before{left:auto;right:40px;transform:rotate(3deg);background:var(--tape-c)}
+.fleet-hold-panel::before{left:44px;width:64px;height:20px;top:-10px;transform:translateX(-50%) rotate(-4deg);background:var(--tape-b)}
+#fleet-hold-panel::before{background:var(--tape-a)}
+.boatSection:nth-child(4n+2)::before{background:var(--tape-b);transform:translateX(-50%) rotate(2deg)}
+.boatSection:nth-child(4n+3)::before{background:var(--tape-c);transform:translateX(-50%) rotate(-1.5deg)}
+.boatSection:nth-child(4n)::before{background:var(--tape-d);transform:translateX(-50%) rotate(3deg)}
+.fleet-hold-panel{padding:14px 18px}
+.fleet-hold-panel summary{min-height:32px;padding:4px 0}
+.loading{border-style:dashed;box-shadow:none}
+.result-card{box-shadow:2px 3px 0 var(--shade)}
+.boats{gap:26px 20px}
+
+/* Boat cards. */
+.boat-number{border-radius:50%;background:transparent;border:2px solid var(--accent);color:var(--accent);font-weight:800;transform:rotate(-8deg)}
+.source-tag{border-style:dashed;border-color:var(--control)}
+.cal td{border-radius:9px 11px 8px 12px/11px 8px 12px 9px}
+.cal td.d{background:var(--soft);box-shadow:inset 0 0 0 1px var(--line)}
+.cal td.today{outline:2.5px solid var(--accent);outline-offset:-3px}
+.sw{border-radius:3px 5px 3px 5px}
+.boat-booking-dates{border-radius:var(--r-small)}
+.order-detail-link,.order-detail-link:visited{border-radius:var(--r-small);border:1.5px solid var(--ink);background:var(--card)}
+.query-warning{border-radius:var(--r-small);border:1.5px dashed var(--unavail-line)}
+.booking-conflicts,.booking-conflicts-overview,.boat-booking.boat-booking-conflict,.release-review{border-radius:var(--r-small)}
+
+/* Panels that used fixed blue-grey colours now use the paper colours. */
+.fleet-hold-panel{color:var(--text)}
+.fleet-hold-panel button{background:var(--accent);color:var(--accent-text);border-color:var(--accent);border-radius:var(--r-btn)}
+.fleet-hold-panel .fleet-hold-remove,.ba-holds .ba-hold-remove{background:transparent;color:var(--accent);border-color:var(--control)}
+.fleet-hold-record,#manual-order-history{border-color:var(--line)}
+.fleet-hold-platforms li{background:var(--soft);color:var(--text);border-color:var(--line);border-radius:var(--r-small)}
+.fleet-hold-platforms .fleet-hold-confirmed{background:var(--free);color:var(--free-text);border-color:var(--free-line)}
+.fleet-hold-platforms .fleet-hold-error,.fleet-hold-platforms .fleet-hold-unconfigured{background:var(--unavail);color:var(--unavail-text);border-color:var(--unavail-line)}
+.boat-reverse{color:var(--text);border-top-color:var(--line)}
+.reverse-detail section,.ba-hold-list li{border-color:var(--line)}
+.ba-holds{border-color:var(--control);border-radius:var(--r-small)}
+.ba-holds button{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+.boat-voltage,.boat-voltage .voltage-popover{background:var(--free);color:var(--free-text);border-color:var(--free-line)}
+.boat-voltage{border-radius:var(--r-small)}
+.voltage-warning,.voltage-warning .voltage-popover{background:var(--unavail);color:var(--unavail-text);border-color:var(--unavail-line)}
+.manual-order-card button{border-color:currentColor;box-shadow:none}
+
+@media(max-width:760px){
+ .page-header{grid-template-columns:minmax(0,1fr) auto;gap:12px;margin-bottom:28px}
+ .mascot-station{grid-column:1/-1;grid-row:2;max-width:none;gap:0 10px}
+ .mascot-image{width:76px;height:76px}
+ .mascot-bubble{grid-template-columns:minmax(0,1fr);padding:10px 12px 12px 14px}
+ .mascot-bubble #refreshBtn{width:100%}
+ .query-form #queryBtn{grid-column:1/-1}
+ h2{font-size:1.15rem}
+}
+@media(max-width:360px){.mascot-image{width:64px;height:64px}.mascot-title{font-size:1rem}}

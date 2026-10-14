@@ -1,0 +1,8 @@
+{
+  "name": "tidewyn-phone-server",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test test/*.test.mjs" },
+  "dependencies": { "puppeteer-core": "^24.0.0", "@novnc/novnc": "^1.6.0", "ws": "^8.18.0" }
+}

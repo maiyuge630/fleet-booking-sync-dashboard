@@ -1,0 +1,72 @@
+Tidewyn Marine
+Dashboard
+Bookings
+Availability
+PromotionsNEW
+Fleet
+Bases
+Change requests
+Invoices
+Marketing assetsNEW
+Your agreement
+Contact us
+EN
+Demo Staff
+#280707 - Grandcat 55 | Tidewyn Discovery 5
+Booking status
+CONFIRMED
+Customer payment
+PARTIALLY PAID
+Agency payment
+PARTIALLY PAID
+Basic details
+Boat
+Grandcat 55 | Tidewyn Discovery 5
+Marina
+Demo Marina
+Name
+Demo Customer A
+Phone number
++00000000000
+Date
+17 Oct 2026 - 24 Oct 2026
+Created at
+22 February 2026 15:19
+Client price
+15,585 €
+People allowed on board
+12
+Documents
+Crew list
+
+OPEN
+png
+280707
+pdf
+No.280707_Tidewyn Discovery5_Demo Customer A-Booking_Confirmation
+Upload documents
+drop or click
+Payments
+Amount payable to Tidewyn Marine	14,086.5 €
+2 Apr 2026	PAID	7,043.25 €
+17 Sep 2026	SCHEDULED	7,043.25 €
+Date TBA	SCHEDULED	7,043.25 €
+Specials included
+FREE dinghy engine
+Services & Extras
+Transit log (final cleaning & bed linen) (200 € / per rental)
+Pay on the spot
+Transit log (final cleaning & bed linen) (200 € / per rental)
+Refundable Security Deposit (4,000 € / per rental + Insurance)
+Price summary
+Base price	14,985 €
+
+Client price	15,585 €
+Agency commission	1498.5 €
+Agency price	14,086.5 €
+Invoice
+pdf
+invoice-00000000
+7 Apr 2026
+Emails
+[e-mail history removed for privacy]

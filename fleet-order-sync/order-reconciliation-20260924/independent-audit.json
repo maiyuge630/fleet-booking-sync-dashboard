@@ -1,0 +1,51 @@
+{
+  "checked_day_beijing": "2026-09-24",
+  "method": "Desktop Chrome authorized back-office UI; all list pages enumerated independently, current/future active and ambiguous orders opened individually; Dashboard order sections compared by identity, boat and dates.",
+  "boataround_pages": [
+    ["319580","319523","319360","318287","300000","317743","317460","317442","316463","316455","316192","315492","313464","312630","310879","309851","309387","308901","308889","308285"],
+    ["308112","307322","303719","302428","299413","298395","293635","293500","292934","286493","285474","281534","280707","278139","276830","276210","272911","272850","270995","263619"],
+    ["259579","258654","257758","255940","255064","254671","254071","253823","252744","251282","251122","249827","249517","248221","246993"]
+  ],
+  "clickandboat_pages": {
+    "In progress": ["1000002","1250578","1256673","1252516","1244141","1364259","1327680","1225691"],
+    "History": ["1274920","1232398","1151370","1215268","1228470","1000000","1230411","1231983","1229656","1229396","1219603","1128533","1161991","1215199","1183339","1219385","1219878","1464449","1227027"]
+  },
+  "samboat_pages": {
+    "Requests": ["1502428","1655830","1654079","1000001","1549424"],
+    "Confirmed": ["1654079","1000001","1502428","1549424"],
+    "Archived 1": ["1587939","1587928","1498714","1514328","1510942","1510943","1508450","1508199","1505817","1504949","1504032","1482994","1459372","1496198","1484031","1477384","1477732","1429632","1461395","1460951"],
+    "Archived 2": ["1413865"]
+  },
+  "missing_before": [
+    {"source":"boataround","id":"319580","boat":"Tidewyn Discovery 3","start":"2027-01-24","end":"2027-01-30","platform_status":"NEW","customer_payment":"PARTIALLY PAID","agency_payment":"NOT PAID","agency_price_eur":4575.46,"client_price_eur":5382,"url":"https://partner.boataround.com/en/000000000000000000000000/orders/4a941ba396dd8427392b1390"},
+    {"source":"boataround","id":"317743","boat":"Tidewyn Cruise 2","start":"2026-11-24","end":"2026-11-30","platform_status":"IN PROCESS","customer_payment":"PARTIALLY PAID","agency_payment":"PARTIALLY PAID","agency_price_eur":2258.59,"client_price_eur":2657,"url":"https://partner.boataround.com/en/000000000000000000000000/orders/60f986f556cfd78131f0c0b3"}
+  ],
+  "expected_by_boat": {
+    "Tidewyn Dream":{"boataround":["316455"],"clickandboat":[],"samboat":[]},
+    "Tidewyn Discovery":{"boataround":["319523"],"clickandboat":["1256673","1252516"],"samboat":["1549424"]},
+    "Tidewyn Cruise":{"boataround":["315492"],"clickandboat":[],"samboat":[]},
+    "Tidewyn Discovery 2":{"boataround":["310879","313464","319360","300000","303719","317460"],"clickandboat":["1250578","1000000"],"samboat":["1654079","1502428"]},
+    "Tidewyn Discovery 3":{"boataround":["318287","319580"],"clickandboat":[],"samboat":[]},
+    "Tidewyn Cruise 2":{"boataround":["317743"],"clickandboat":[],"samboat":[]},
+    "Tidewyn Discovery 5":{"boataround":["280707","285474","286493","278139","309387","299413","316463","308285"],"clickandboat":["1000002","1244141","1364259","1327680"],"samboat":[],"manual":["0e14ca78-ed32-4615-8547-11edceb43071"]}
+  },
+  "detail_pages_opened": {
+    "boataround":["319523","319580","317743","319360","318287","300000","317460","316463","316455","315492","313464","310879","309387","308285","303719","299413","286493","285474","280707","278139"],
+    "clickandboat":["1000002","1250578","1256673","1252516","1244141","1364259","1327680","1225691","1464449","1000000"],
+    "samboat":["1654079","1502428","1549424","1655830","1000001","1587939","1587928"]
+  },
+  "not_orders": {
+    "samboat:1655830":"Pre-approved; waiting for renter payment.",
+    "samboat:1000001":"Completed despite future dates; historical cancellation plus explicit user cancellation confirmation. Preserve exclusion.",
+    "samboat:1587939":"Refused.",
+    "samboat:1587928":"Cancelled.",
+    "clickandboat:1225691":"Cancelled.",
+    "clickandboat:1464449":"Cancelled.",
+    "boataround:317442":"Cancelled; independent manual piotr order remains active.",
+    "mmk:27-41021":"Native Option on AD1 2027-03-06 to 2027-03-19; payments zero; not a paid order. Do not promote mirrored zero-price Reservations to source orders."
+  },
+  "business_confirmation_pending": "SamBoat 1502428 formal reservation still AD2; conversation refers to Lightcat 400 S2 upgrade. Keep formal boat and protection pending user confirmation.",
+  "dashboard_before_counts": {"Tidewyn Dream":1,"Tidewyn Discovery":4,"Tidewyn Cruise":1,"Tidewyn Discovery 2":10,"Tidewyn Discovery 3":1,"Tidewyn Cruise 2":0,"Tidewyn Discovery 5":13},
+  "expected_total_including_reschedule_and_manual":32,
+  "mmk_before": {"year_2026_reservations":19,"year_2027_records":14,"year_2027_native_options":1,"year_2027_system_reservations":13,"missing_reverse_causes":["boataround:319360","boataround:319523"],"phone_error":"mmk_auth_required"}
+}

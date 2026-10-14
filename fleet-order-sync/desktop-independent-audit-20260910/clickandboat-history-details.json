@@ -1,0 +1,24 @@
+{
+  "source": "fresh_desktop_Chrome_Tidewyn_CUA_visible_details",
+  "note": "Each of the 18 previously enumerated history URLs was actually opened. Status below is the current detail heading status, not the History list badge. No customer identity fields were retained; no customer payment API was attempted for history.",
+  "observations": [
+    {"booking_id":"1274920","detail_status":"ACCEPTED","model":"Wavecat 34 open","start":"2026-05-27","end":"2026-05-30","net_income_eur":2280,"observed_at":"2026-09-10T06:04:05.101Z"},
+    {"booking_id":"1232398","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2026-04-20","end":"2026-04-24","net_income_eur":7236,"observed_at":"2026-09-10T06:04:07.319Z"},
+    {"booking_id":"1151370","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2026-04-04","end":"2026-04-17","net_income_eur":22371,"observed_at":"2026-09-10T06:04:09.171Z"},
+    {"booking_id":"1215268","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-04-04","end":"2026-04-10","net_income_eur":14859,"observed_at":"2026-09-10T06:04:11.020Z"},
+    {"booking_id":"1228470","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-03-21","end":"2026-03-28","net_income_eur":9717,"observed_at":"2026-09-10T06:04:12.886Z"},
+    {"booking_id":"1000000","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2026-03-14","end":"2026-03-21","net_income_eur":4200,"observed_at":"2026-09-10T06:04:14.720Z"},
+    {"booking_id":"1230411","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-03-13","end":"2026-03-20","net_income_eur":10080,"observed_at":"2026-09-10T06:04:42.732Z"},
+    {"booking_id":"1231983","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-02-28","end":"2026-03-03","net_income_eur":8118,"observed_at":"2026-09-10T06:04:45.678Z"},
+    {"booking_id":"1229656","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2026-02-24","end":"2026-03-01","net_income_eur":14646,"observed_at":"2026-09-10T06:04:48.960Z"},
+    {"booking_id":"1229396","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-02-22","end":"2026-02-27","net_income_eur":9306,"observed_at":"2026-09-10T06:04:51.150Z"},
+    {"booking_id":"1219603","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-01-05","end":"2026-01-08","net_income_eur":8742,"observed_at":"2026-09-10T06:04:54.125Z"},
+    {"booking_id":"1128533","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2026-01-01","end":"2026-01-04","net_income_eur":7596,"observed_at":"2026-09-10T06:04:56.345Z"},
+    {"booking_id":"1161991","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2025-12-20","end":"2025-12-31","net_income_eur":25791,"observed_at":"2026-09-10T06:05:10.342Z"},
+    {"booking_id":"1215199","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2025-11-26","end":"2025-11-29","net_income_eur":8307,"observed_at":"2026-09-10T06:05:12.285Z"},
+    {"booking_id":"1183339","detail_status":"ACCEPTED","model":"Seacat 40 Open","start":"2025-11-17","end":"2025-11-24","net_income_eur":12294,"observed_at":"2026-09-10T06:05:14.531Z"},
+    {"booking_id":"1219385","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2025-11-17","end":"2025-11-21","net_income_eur":9444,"observed_at":"2026-09-10T06:05:16.334Z"},
+    {"booking_id":"1219878","detail_status":"ACCEPTED","model":"REEFYARD Reef CAT 37","start":"2025-09-27","end":"2025-09-29","net_income_eur":4581,"observed_at":"2026-09-10T06:05:18.193Z"},
+    {"booking_id":"1227027","detail_status":"CANCELLED","model":"Seacat 40 Open","start":"2026-02-15","end":"2026-02-20","net_income_eur":null,"detail_has_net_amount_field":false,"observed_at":"2026-09-10T06:05:20.078Z"}
+  ]
+}

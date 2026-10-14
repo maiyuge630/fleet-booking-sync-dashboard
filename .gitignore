@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.dev.vars
+*.p12
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+fleet-order-sync/after/
+fleet-order-sync/before/
+fleet-order-sync/integrated-source.mjs
+fleet-order-sync/phone-agent-build/
+.wrangler/
+
+# Logs, runtime data, databases (test fixtures in .jsonl stay tracked)
+*.log
+logs/
+*.sqlite
+*.db
+reverse-ledger.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

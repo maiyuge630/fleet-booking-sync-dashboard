@@ -1,0 +1,3609 @@
+{
+  "observed_at": "2026-09-10T04:19:21.367Z",
+  "boataround": {
+    "api": {
+      "url": "https://partner-api.boataround.com/v1/charters/000000000000000000000000/orders?lang=en_GB&offset=0&limit=20",
+      "http_status": 304,
+      "count": 52,
+      "data_length": 20,
+      "ids": [
+        "debceac81a5506fc745e173f",
+        "caa620655de6a253a462dece",
+        "60f986f556cfd78131f0c0b3",
+        "1d4dcb2af25a038311893a61",
+        "91b1463cc7d580391f35778d",
+        "c9f53cd893b94fb285b7917f",
+        "eeebc4f7d7d6cd6382faa7c0",
+        "76672c46190ad4e15abe3e27",
+        "311102cbe881b2b9a46c5929",
+        "1f5e5e5591350f950d50b325",
+        "0ddf19fa46abb83662a7e756",
+        "95a80bb41f8e468a03c29fef",
+        "4c36c36edc164b6e2427385d",
+        "4a2a879541fb54876c53cc27",
+        "1a719ea8d492d449959a7e9b",
+        "d7966378cd7bf65287aa26b0",
+        "6665d1adc641ece781860030",
+        "9daf1d0b7362bec1f3536d33",
+        "4d5964e854dc4fe31ad27d24",
+        "4f0da29648642f696520fd9e"
+      ],
+      "top_keys": [
+        "data",
+        "count"
+      ],
+      "item_keys": [
+        "charter_status",
+        "uuid",
+        "boat_id",
+        "agency_commission_percentage",
+        "agency_price",
+        "agency_commission_absolute",
+        "id",
+        "created_at",
+        "check_in",
+        "check_out",
+        "time_slot",
+        "customer_name",
+        "boat_name",
+        "marina_name",
+        "booking_status",
+        "client_payment_status",
+        "agency_payment_status",
+        "discount",
+        "extras_price",
+        "base_price",
+        "price",
+        "total_price",
+        "total_price_with_decimal",
+        "price_adjustment",
+        "charter_special_discount",
+        "boataround_special_discount",
+        "boataround_rounding_discount",
+        "extras",
+        "specials",
+        "is_crewlist_filled"
+      ]
+    },
+    "dom": {
+      "links": [
+        "https://partner.boataround.com/en/000000000000000000000000/orders/debceac81a5506fc745e173f",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/caa620655de6a253a462dece",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/60f986f556cfd78131f0c0b3",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/60f986f556cfd78131f0c0b3/crew-list",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/1d4dcb2af25a038311893a61",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/91b1463cc7d580391f35778d",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/c9f53cd893b94fb285b7917f",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/eeebc4f7d7d6cd6382faa7c0",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/76672c46190ad4e15abe3e27",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/311102cbe881b2b9a46c5929",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/311102cbe881b2b9a46c5929/crew-list",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/1f5e5e5591350f950d50b325",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/0ddf19fa46abb83662a7e756",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/95a80bb41f8e468a03c29fef",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/4c36c36edc164b6e2427385d",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/4a2a879541fb54876c53cc27",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/1a719ea8d492d449959a7e9b",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/d7966378cd7bf65287aa26b0",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/6665d1adc641ece781860030",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/9daf1d0b7362bec1f3536d33",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/4d5964e854dc4fe31ad27d24",
+        "https://partner.boataround.com/en/000000000000000000000000/orders/4f0da29648642f696520fd9e"
+      ],
+      "buttons": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "clickandboat": {
+    "http_status": 200,
+    "url": "https://www.clickandboat.com/uk/account/bookings",
+    "raw": {
+      "tabs": [
+        {
+          "attrs": {
+            "class": "button-grey active",
+            "data-filter-class": "in_progress"
+          },
+          "text": "In progress"
+        },
+        {
+          "attrs": {
+            "class": "button-grey",
+            "data-filter-class": "history"
+          },
+          "text": "History"
+        }
+      ],
+      "groups": [
+        {
+          "attrs": {
+            "class": "in_progress booking-table js-inProgress"
+          },
+          "rows": 8,
+          "children": [
+            {
+              "class": "booking-row in_progress qa-booking-id-1000002"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1250578"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1256673"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1252516"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1244141"
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "history booking-table js-paginationHistory jss-hide"
+          },
+          "rows": 18,
+          "children": [
+            {
+              "class": "booking-row history qa-booking-id-1274920"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1232398"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1151370"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1215268"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1228470"
+            }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "id": "N°1000002",
+          "href": "https://www.clickandboat.com/uk/booking/1000002/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1000002"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1250578",
+          "href": "https://www.clickandboat.com/uk/booking/1250578/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1250578"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1256673",
+          "href": "https://www.clickandboat.com/uk/booking/1256673/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1256673"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1252516",
+          "href": "https://www.clickandboat.com/uk/booking/1252516/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1252516"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1244141",
+          "href": "https://www.clickandboat.com/uk/booking/1244141/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1244141"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1364259",
+          "href": "https://www.clickandboat.com/uk/booking/1364259/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1364259"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1327680",
+          "href": "https://www.clickandboat.com/uk/booking/1327680/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1327680"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1225691",
+          "href": "https://www.clickandboat.com/uk/booking/1225691/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1225691"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1274920",
+          "href": "https://www.clickandboat.com/uk/booking/1274920/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1274920"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1232398",
+          "href": "https://www.clickandboat.com/uk/booking/1232398/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1232398"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1151370",
+          "href": "https://www.clickandboat.com/uk/booking/1151370/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1151370"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1215268",
+          "href": "https://www.clickandboat.com/uk/booking/1215268/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1215268"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1228470",
+          "href": "https://www.clickandboat.com/uk/booking/1228470/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1228470"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1000000",
+          "href": "https://www.clickandboat.com/uk/booking/1000000/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1000000"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1230411",
+          "href": "https://www.clickandboat.com/uk/booking/1230411/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1230411"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1231983",
+          "href": "https://www.clickandboat.com/uk/booking/1231983/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1231983"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1229656",
+          "href": "https://www.clickandboat.com/uk/booking/1229656/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1229656"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1229396",
+          "href": "https://www.clickandboat.com/uk/booking/1229396/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1229396"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219603",
+          "href": "https://www.clickandboat.com/uk/booking/1219603/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219603"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1128533",
+          "href": "https://www.clickandboat.com/uk/booking/1128533/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1128533"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1161991",
+          "href": "https://www.clickandboat.com/uk/booking/1161991/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1161991"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1215199",
+          "href": "https://www.clickandboat.com/uk/booking/1215199/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1215199"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1183339",
+          "href": "https://www.clickandboat.com/uk/booking/1183339/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1183339"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219385",
+          "href": "https://www.clickandboat.com/uk/booking/1219385/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219385"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219878",
+          "href": "https://www.clickandboat.com/uk/booking/1219878/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219878"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1227027",
+          "href": "https://www.clickandboat.com/uk/booking/1227027/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1227027"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        }
+      ],
+      "pagination": [
+        {
+          "attrs": {
+            "class": "pagination "
+          },
+          "text": "",
+          "items": []
+        }
+      ],
+      "orderLinks": [
+        "https://www.clickandboat.com/uk/booking/1000002/detail",
+        "https://www.clickandboat.com/uk/booking/1250578/detail",
+        "https://www.clickandboat.com/uk/booking/1256673/detail",
+        "https://www.clickandboat.com/uk/booking/1252516/detail",
+        "https://www.clickandboat.com/uk/booking/1244141/detail",
+        "https://www.clickandboat.com/uk/booking/1364259/detail",
+        "https://www.clickandboat.com/uk/booking/1327680/detail",
+        "https://www.clickandboat.com/uk/booking/1225691/detail",
+        "https://www.clickandboat.com/uk/booking/1274920/detail",
+        "https://www.clickandboat.com/uk/booking/1232398/detail",
+        "https://www.clickandboat.com/uk/booking/1151370/detail",
+        "https://www.clickandboat.com/uk/booking/1215268/detail",
+        "https://www.clickandboat.com/uk/booking/1228470/detail",
+        "https://www.clickandboat.com/uk/booking/1000000/detail",
+        "https://www.clickandboat.com/uk/booking/1230411/detail",
+        "https://www.clickandboat.com/uk/booking/1231983/detail",
+        "https://www.clickandboat.com/uk/booking/1229656/detail",
+        "https://www.clickandboat.com/uk/booking/1229396/detail",
+        "https://www.clickandboat.com/uk/booking/1219603/detail",
+        "https://www.clickandboat.com/uk/booking/1128533/detail",
+        "https://www.clickandboat.com/uk/booking/1161991/detail",
+        "https://www.clickandboat.com/uk/booking/1215199/detail",
+        "https://www.clickandboat.com/uk/booking/1183339/detail",
+        "https://www.clickandboat.com/uk/booking/1219385/detail",
+        "https://www.clickandboat.com/uk/booking/1219878/detail",
+        "https://www.clickandboat.com/uk/booking/1227027/detail"
+      ]
+    },
+    "live": {
+      "tabs": [
+        {
+          "attrs": {
+            "class": "button-grey active",
+            "data-filter-class": "in_progress"
+          },
+          "text": "In progress"
+        },
+        {
+          "attrs": {
+            "class": "button-grey",
+            "data-filter-class": "history"
+          },
+          "text": "History"
+        }
+      ],
+      "groups": [
+        {
+          "attrs": {
+            "class": "in_progress booking-table js-inProgress"
+          },
+          "rows": 8,
+          "children": [
+            {
+              "class": "booking-row in_progress qa-booking-id-1000002"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1250578"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1256673"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1252516"
+            },
+            {
+              "class": "booking-row in_progress qa-booking-id-1244141"
+            }
+          ]
+        },
+        {
+          "attrs": {
+            "class": "history booking-table js-paginationHistory jss-hide"
+          },
+          "rows": 18,
+          "children": [
+            {
+              "class": "booking-row history qa-booking-id-1274920"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1232398"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1151370"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1215268"
+            },
+            {
+              "class": "booking-row history qa-booking-id-1228470"
+            }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "id": "N°1000002",
+          "href": "https://www.clickandboat.com/uk/booking/1000002/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1000002"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1250578",
+          "href": "https://www.clickandboat.com/uk/booking/1250578/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1250578"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1256673",
+          "href": "https://www.clickandboat.com/uk/booking/1256673/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1256673"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1252516",
+          "href": "https://www.clickandboat.com/uk/booking/1252516/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1252516"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1244141",
+          "href": "https://www.clickandboat.com/uk/booking/1244141/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1244141"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1364259",
+          "href": "https://www.clickandboat.com/uk/booking/1364259/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1364259"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1327680",
+          "href": "https://www.clickandboat.com/uk/booking/1327680/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1327680"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1225691",
+          "href": "https://www.clickandboat.com/uk/booking/1225691/detail",
+          "attrs": {
+            "class": "booking-row in_progress qa-booking-id-1225691"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "in_progress booking-table js-inProgress"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1274920",
+          "href": "https://www.clickandboat.com/uk/booking/1274920/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1274920"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1232398",
+          "href": "https://www.clickandboat.com/uk/booking/1232398/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1232398"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1151370",
+          "href": "https://www.clickandboat.com/uk/booking/1151370/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1151370"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1215268",
+          "href": "https://www.clickandboat.com/uk/booking/1215268/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1215268"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1228470",
+          "href": "https://www.clickandboat.com/uk/booking/1228470/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1228470"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1000000",
+          "href": "https://www.clickandboat.com/uk/booking/1000000/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1000000"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1230411",
+          "href": "https://www.clickandboat.com/uk/booking/1230411/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1230411"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1231983",
+          "href": "https://www.clickandboat.com/uk/booking/1231983/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1231983"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1229656",
+          "href": "https://www.clickandboat.com/uk/booking/1229656/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1229656"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1229396",
+          "href": "https://www.clickandboat.com/uk/booking/1229396/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1229396"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219603",
+          "href": "https://www.clickandboat.com/uk/booking/1219603/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219603"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1128533",
+          "href": "https://www.clickandboat.com/uk/booking/1128533/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1128533"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1161991",
+          "href": "https://www.clickandboat.com/uk/booking/1161991/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1161991"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1215199",
+          "href": "https://www.clickandboat.com/uk/booking/1215199/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1215199"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1183339",
+          "href": "https://www.clickandboat.com/uk/booking/1183339/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1183339"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219385",
+          "href": "https://www.clickandboat.com/uk/booking/1219385/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219385"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1219878",
+          "href": "https://www.clickandboat.com/uk/booking/1219878/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1219878"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        },
+        {
+          "id": "N°1227027",
+          "href": "https://www.clickandboat.com/uk/booking/1227027/detail",
+          "attrs": {
+            "class": "booking-row history qa-booking-id-1227027"
+          },
+          "parents": [
+            {
+              "tag": "DIV",
+              "class": "history booking-table js-paginationHistory jss-hide"
+            },
+            {
+              "tag": "DIV",
+              "class": "last-booking"
+            },
+            {
+              "tag": "SECTION",
+              "id": "bookings",
+              "class": "setting-container"
+            },
+            {
+              "tag": "DIV",
+              "class": "bookingListMainContainer"
+            }
+          ]
+        }
+      ],
+      "pagination": [
+        {
+          "attrs": {
+            "class": "pagination "
+          },
+          "text": "",
+          "items": []
+        }
+      ],
+      "orderLinks": [
+        "https://www.clickandboat.com/uk/booking/1000002/detail",
+        "https://www.clickandboat.com/uk/booking/1250578/detail",
+        "https://www.clickandboat.com/uk/booking/1256673/detail",
+        "https://www.clickandboat.com/uk/booking/1252516/detail",
+        "https://www.clickandboat.com/uk/booking/1244141/detail",
+        "https://www.clickandboat.com/uk/booking/1364259/detail",
+        "https://www.clickandboat.com/uk/booking/1327680/detail",
+        "https://www.clickandboat.com/uk/booking/1225691/detail",
+        "https://www.clickandboat.com/uk/booking/1274920/detail",
+        "https://www.clickandboat.com/uk/booking/1232398/detail",
+        "https://www.clickandboat.com/uk/booking/1151370/detail",
+        "https://www.clickandboat.com/uk/booking/1215268/detail",
+        "https://www.clickandboat.com/uk/booking/1228470/detail",
+        "https://www.clickandboat.com/uk/booking/1000000/detail",
+        "https://www.clickandboat.com/uk/booking/1230411/detail",
+        "https://www.clickandboat.com/uk/booking/1231983/detail",
+        "https://www.clickandboat.com/uk/booking/1229656/detail",
+        "https://www.clickandboat.com/uk/booking/1229396/detail",
+        "https://www.clickandboat.com/uk/booking/1219603/detail",
+        "https://www.clickandboat.com/uk/booking/1128533/detail",
+        "https://www.clickandboat.com/uk/booking/1161991/detail",
+        "https://www.clickandboat.com/uk/booking/1215199/detail",
+        "https://www.clickandboat.com/uk/booking/1183339/detail",
+        "https://www.clickandboat.com/uk/booking/1219385/detail",
+        "https://www.clickandboat.com/uk/booking/1219878/detail",
+        "https://www.clickandboat.com/uk/booking/1227027/detail"
+      ]
+    }
+  },
+  "samboat": {
+    "http_status": 200,
+    "url": "https://www.samboat.com/private/reservations",
+    "raw": {
+      "components": [
+        {
+          "initial-tab-archived": "archived",
+          "initial-active-tab": "ongoing",
+          "archived-booking-url": "https://www.samboat.com/private/reservations?archived=1&hideArchivedRefusedAndCancelled=TO_REPLACE"
+        }
+      ],
+      "tabs": [
+        {
+          "attrs": {
+            "href": "#new-message",
+            "id": "new-message-tab",
+            "class": "nav-link ",
+            "role": "tab"
+          },
+          "text": "Unread"
+        },
+        {
+          "attrs": {
+            "href": "#ongoing",
+            "id": "ongoing-tab",
+            "class": "nav-link active",
+            "role": "tab"
+          },
+          "text": "Requests"
+        },
+        {
+          "attrs": {
+            "href": "#confirmed",
+            "id": "confirmed-tab",
+            "class": "nav-link ",
+            "role": "tab"
+          },
+          "text": "Confirmed"
+        },
+        {
+          "attrs": {
+            "href": "#archived",
+            "id": "archived-tab",
+            "class": "nav-link ",
+            "role": "tab"
+          },
+          "text": "Archived"
+        }
+      ],
+      "panels": [
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "class": "tab-pane ",
+            "id": "new-message"
+          },
+          "cards": [],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "class": "tab-pane active",
+            "id": "ongoing"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1000001",
+                "href": "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane active",
+                  "id": "ongoing"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1502428",
+                "href": "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane active",
+                  "id": "ongoing"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1549424",
+                "href": "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane active",
+                  "id": "ongoing"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "class": "tab-pane ",
+            "id": "confirmed"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1000001",
+                "href": "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "confirmed"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1502428",
+                "href": "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "confirmed"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1549424",
+                "href": "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "confirmed"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "class": "tab-pane ",
+            "id": "archived"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1587939",
+                "href": "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1587928",
+                "href": "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1498714",
+                "href": "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1514328",
+                "href": "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1510942",
+                "href": "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1510943",
+                "href": "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1508450",
+                "href": "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1508199",
+                "href": "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1505817",
+                "href": "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1504949",
+                "href": "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1504032",
+                "href": "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1482994",
+                "href": "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1459372",
+                "href": "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1496198",
+                "href": "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1484031",
+                "href": "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1477384",
+                "href": "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1477732",
+                "href": "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1429632",
+                "href": "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1461395",
+                "href": "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1460951",
+                "href": "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1",
+                "class": "card rounded-4  text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "class": "tab-pane ",
+                  "id": "archived"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [
+            {
+              "attrs": {
+                "class": "page-link",
+                "href": "https://www.samboat.com/private/reservations?archived=2"
+              },
+              "text": "2"
+            },
+            {
+              "attrs": {
+                "class": "page-link",
+                "href": "https://www.samboat.com/private/reservations?archived=2"
+              },
+              "text": ">"
+            }
+          ],
+          "pagination": [
+            {
+              "attrs": {
+                "class": "pagination justify-content-center mb-0"
+              },
+              "text": "<\n        \n        \n        \n                                                        1\n                                                                                    2\n                                            \n        \n        \n                    >",
+              "children": [
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item disabled"
+                  },
+                  "text": "<"
+                },
+                {
+                  "tag": "SPAN",
+                  "attrs": {
+                    "class": "page-link",
+                    "href": ""
+                  },
+                  "text": "<"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item active d-none d-lg-block"
+                  },
+                  "text": "1"
+                },
+                {
+                  "tag": "SPAN",
+                  "attrs": {
+                    "class": "page-link"
+                  },
+                  "text": "1"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item d-none d-lg-block"
+                  },
+                  "text": "2"
+                },
+                {
+                  "tag": "A",
+                  "attrs": {
+                    "class": "page-link",
+                    "href": "https://www.samboat.com/private/reservations?archived=2"
+                  },
+                  "text": "2"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item"
+                  },
+                  "text": ">"
+                },
+                {
+                  "tag": "A",
+                  "attrs": {
+                    "class": "page-link",
+                    "href": "https://www.samboat.com/private/reservations?archived=2"
+                  },
+                  "text": ">"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "filters": [
+        {
+          "attrs": {
+            "type": "checkbox",
+            "id": "hideArchivedRefusedAndCancelled",
+            "class": "form-check-input"
+          },
+          "checked": false
+        }
+      ],
+      "orderLinks": [
+        "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1"
+      ],
+      "pagerNodes": [
+        {
+          "attrs": {
+            "class": "pagination justify-content-center mb-0"
+          },
+          "text": "<\n        \n        \n        \n                                                        1\n                                                                                    2\n                                            \n        \n        \n                    >"
+        }
+      ]
+    },
+    "live": {
+      "components": [],
+      "tabs": [
+        {
+          "attrs": {
+            "href": "#new-message",
+            "id": "new-message-tab",
+            "role": "tab",
+            "class": "nav-link",
+            "aria-selected": "false"
+          },
+          "text": "Unread"
+        },
+        {
+          "attrs": {
+            "href": "#ongoing",
+            "id": "ongoing-tab",
+            "role": "tab",
+            "class": "nav-link active",
+            "aria-selected": "true"
+          },
+          "text": "Requests"
+        },
+        {
+          "attrs": {
+            "href": "#confirmed",
+            "id": "confirmed-tab",
+            "role": "tab",
+            "class": "nav-link",
+            "aria-selected": "false"
+          },
+          "text": "Confirmed"
+        },
+        {
+          "attrs": {
+            "href": "#archived",
+            "id": "archived-tab",
+            "role": "tab",
+            "class": "nav-link",
+            "aria-selected": "false"
+          },
+          "text": "Archived"
+        },
+        {
+          "attrs": {
+            "href": "https://www.samboat.com/private/reservations/new-messages/mark-as-read?to_user_id=700000",
+            "class": "btn btn-link btn-sm"
+          },
+          "text": "Mark all as read"
+        },
+        {
+          "attrs": {
+            "href": "https://www.samboat.com/private/reservations/proposal/create",
+            "class": "btn btn-sm btn-outline-secondary"
+          },
+          "text": "New proposal"
+        }
+      ],
+      "panels": [
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "id": "new-message",
+            "class": "tab-pane",
+            "aria-labelledby": "#new-message-tab"
+          },
+          "cards": [],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "id": "ongoing",
+            "class": "tab-pane active",
+            "aria-labelledby": "#ongoing-tab"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1000001",
+                "href": "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "ongoing",
+                  "class": "tab-pane active",
+                  "aria-labelledby": "#ongoing-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1502428",
+                "href": "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "ongoing",
+                  "class": "tab-pane active",
+                  "aria-labelledby": "#ongoing-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+              "attrs": {
+                "id": "reservation-1549424",
+                "href": "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "ongoing",
+                  "class": "tab-pane active",
+                  "aria-labelledby": "#ongoing-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "id": "confirmed",
+            "class": "tab-pane",
+            "aria-labelledby": "#confirmed-tab"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1000001",
+                "href": "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "confirmed",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#confirmed-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1502428",
+                "href": "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "confirmed",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#confirmed-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+              "attrs": {
+                "id": "reservation-1549424",
+                "href": "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "confirmed",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#confirmed-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [],
+          "pagination": []
+        },
+        {
+          "attrs": {
+            "role": "tabpanel",
+            "id": "archived",
+            "class": "tab-pane",
+            "aria-labelledby": "#archived-tab"
+          },
+          "cards": [
+            {
+              "href": "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1587939",
+                "href": "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1587928",
+                "href": "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1498714",
+                "href": "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1514328",
+                "href": "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1510942",
+                "href": "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1510943",
+                "href": "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1508450",
+                "href": "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1508199",
+                "href": "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1505817",
+                "href": "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1504949",
+                "href": "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1504032",
+                "href": "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1482994",
+                "href": "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1459372",
+                "href": "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1496198",
+                "href": "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1484031",
+                "href": "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1477384",
+                "href": "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1477732",
+                "href": "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1429632",
+                "href": "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1461395",
+                "href": "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            },
+            {
+              "href": "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1",
+              "attrs": {
+                "id": "reservation-1460951",
+                "href": "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1",
+                "class": "card rounded-4 text-decoration-none text-body"
+              },
+              "parents": [
+                {
+                  "tag": "DIV",
+                  "class": "row flex-column gy-2 gx-0"
+                },
+                {
+                  "tag": "DIV",
+                  "role": "tabpanel",
+                  "id": "archived",
+                  "class": "tab-pane",
+                  "aria-labelledby": "#archived-tab"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "tab-content px-3 px-md-4"
+                },
+                {
+                  "tag": "DIV",
+                  "class": "container no-padding-mobile"
+                }
+              ]
+            }
+          ],
+          "emptyLabels": [],
+          "links": [
+            {
+              "attrs": {
+                "href": "https://www.samboat.com/private/reservations?archived=2",
+                "class": "page-link"
+              },
+              "text": "2"
+            },
+            {
+              "attrs": {
+                "href": "https://www.samboat.com/private/reservations?archived=2",
+                "class": "page-link"
+              },
+              "text": ">"
+            }
+          ],
+          "pagination": [
+            {
+              "attrs": {
+                "class": "pagination justify-content-center mb-0"
+              },
+              "text": "< 1 2 >",
+              "children": [
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item disabled"
+                  },
+                  "text": "<"
+                },
+                {
+                  "tag": "SPAN",
+                  "attrs": {
+                    "href": "",
+                    "class": "page-link"
+                  },
+                  "text": "<"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item active d-none d-lg-block"
+                  },
+                  "text": "1"
+                },
+                {
+                  "tag": "SPAN",
+                  "attrs": {
+                    "class": "page-link"
+                  },
+                  "text": "1"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item d-none d-lg-block"
+                  },
+                  "text": "2"
+                },
+                {
+                  "tag": "A",
+                  "attrs": {
+                    "href": "https://www.samboat.com/private/reservations?archived=2",
+                    "class": "page-link"
+                  },
+                  "text": "2"
+                },
+                {
+                  "tag": "LI",
+                  "attrs": {
+                    "class": "page-item"
+                  },
+                  "text": ">"
+                },
+                {
+                  "tag": "A",
+                  "attrs": {
+                    "href": "https://www.samboat.com/private/reservations?archived=2",
+                    "class": "page-link"
+                  },
+                  "text": ">"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "filters": [],
+      "orderLinks": [
+        "https://www.samboat.com/private/reservation/1000001?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1502428?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1549424?tab=ongoing&page=1",
+        "https://www.samboat.com/private/reservation/1000001?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1502428?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1549424?tab=confirmed&page=1",
+        "https://www.samboat.com/private/reservation/1587939?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1587928?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1498714?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1514328?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1510942?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1510943?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1508450?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1508199?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1505817?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1504949?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1504032?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1482994?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1459372?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1496198?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1484031?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1477384?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1477732?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1429632?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1461395?tab=archived&page=1",
+        "https://www.samboat.com/private/reservation/1460951?tab=archived&page=1"
+      ],
+      "pagerNodes": [
+        {
+          "attrs": {
+            "class": "pagination justify-content-center mb-0"
+          },
+          "text": "< 1 2 >"
+        }
+      ]
+    }
+  }
+}

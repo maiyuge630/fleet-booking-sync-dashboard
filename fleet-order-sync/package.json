@@ -1,0 +1,8 @@
+{
+  "name": "tidewyn-order-sync",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs"},
+  "dependencies": {"@cloudflare/puppeteer": "1.4.0"},
+  "devDependencies": {"esbuild": "0.28.2"}
+}
