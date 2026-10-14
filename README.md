@@ -109,7 +109,7 @@ One boat showed a "please verify reopening" warning, and its dates were still bl
 
 I wanted the dashboard to feel friendlier, and I wanted people to see the sync status right away instead of reading a long line of text. I picked a notebook-style redesign with a mascot that only reports what's actually happening. It doesn't celebrate or say everything is fine. The status now sits next to the Sync now button, and anything that needs attention links straight to the problem.
 
-## My role and use of AI
+## My role
 
 I started this project in May 2026 and I still run it. I decide what it needs to do, set the rules, design how it looks, test it on our real platforms and keep it running for the business. The owner and almost all of our staff use it.
 
@@ -122,7 +122,7 @@ Here's what I did:
 - I set up and look after the phone, and keep the system running.
 - On 10 Oct 2026 I had every platform's back office compared order by order with the dashboard. All 40 active orders matched.
 
-How I used AI: the code (the dashboard, phone service, platform readers, calendar sync, the 1,580 tests and the deployment scripts) was written by AI coding assistants, first OpenAI Codex and then Anthropic Claude Code from late September 2026, based on my requirements. I did not write most of the code by hand. This README and the portfolio descriptions were also drafted with Claude Code, from my decisions and the project records.
+I built it with AI coding assistants (OpenAI Codex, then Anthropic Claude Code from late September 2026). They wrote the code and helped me write these docs, based on my requirements and decisions.
 
 ## What I learned / Next steps
 
@@ -131,7 +131,7 @@ What I learned:
 - The first error message isn't always right. On 14 Sept the program said Boataround had logged us out, but I knew the phone had the password saved, and it turned out the program was looking in the wrong browser. Now when something says it failed, I check what actually happened before I believe it.
 - A page that doesn't load tells you nothing about the order. If the system treated it as a cancellation, it could reopen dates on a boat that's actually booked. So we made the system keep the last complete data and say it couldn't update, instead of guessing.
 - Other people's systems change without telling you. The booking that wasn't on the dashboard turned out to be fine, but the missed cancellation happened because NauSYS changes a column we relied on. What saved us was that the dashboard showed a warning, and I noticed it.
-- The AI does exactly what I say, not what I mean. When I said turnover days don't count as overlaps, or that staff blocks must never be deleted, that's exactly what it built. Vague rules gave wrong results, so a lot of my work was explaining exactly what I meant.
+- Vague rules don't work. When I said turnover days don't count as overlaps, or that staff blocks must never be deleted, that's exactly what got built, nothing more. So a lot of my work was explaining exactly what I meant.
 - The people using it aren't programmers. The owner and staff need to see what's wrong and where at a glance, which is why the redesign puts the status and links right next to the Sync button.
 - Using the official Click&Boat app was slower than getting around the bot check, but I'd rather do it the way the platform allows.
 
