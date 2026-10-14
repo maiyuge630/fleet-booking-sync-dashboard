@@ -1,0 +1,29 @@
+flowchart LR
+  P1["<b>5 booking platforms</b><br/>orders<br/><small>Boataround · Click&Boat · SamBoat<br/>MMK · NauSYS</small>"]
+  COL["<b>Phone</b><br/>order collectors<br/>every 3 hours"]
+  REG[("<b>Cloud</b><br/>order registry")]
+  PLAN["<b>Cloud</b><br/>planner: dates each<br/>platform must block"]
+  EXE["<b>Phone</b><br/>calendar sync:<br/>block / reopen dates,<br/>then read back"]
+  P2["<b>Same 5 platforms</b><br/>calendars"]
+  UI["<b>Cloud</b><br/>web dashboard<br/>calendar · overlaps · revenue"]
+  STAFF(["Owner & staff"])
+  GPS["Boat GPS trackers<br/>(Anzhilian cloud)"]
+  VOLT["<b>Phone</b><br/>battery voltage<br/>once a day"]
+
+  P1 -->|"read in the phone's<br/>logged-in browser / app"| COL
+  COL -->|"complete snapshot"| REG
+  REG --> PLAN
+  PLAN -->|"calendar plan"| EXE
+  EXE --> P2
+  EXE -.->|"verified result"| REG
+  REG --> UI
+  STAFF --> UI
+  GPS --> VOLT
+  VOLT -->|"readings"| REG
+
+  classDef phone fill:#e3f1e8,stroke:#1f5a40,color:#14301f
+  classDef cloud fill:#e3ecf6,stroke:#1d4f7a,color:#102a40
+  classDef ext fill:#f4eddd,stroke:#857c6b,color:#2a2925
+  class COL,EXE,VOLT phone
+  class REG,PLAN,UI cloud
+  class P1,P2,GPS,STAFF ext

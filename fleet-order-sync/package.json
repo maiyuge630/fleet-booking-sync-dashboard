@@ -2,7 +2,7 @@
   "name": "tidewyn-order-sync",
   "private": true,
   "type": "module",
-  "scripts": {"build": "node build.mjs"},
+  "scripts": {"build": "node build.mjs", "demo": "node demo/preview-server.cjs 8891", "test": "node --test --test-concurrency=4 \"**/*.test.mjs\" \"**/*.test.cjs\" \"../phone-server-deployment/provision/{background-chrome,native-chrome-bridge,native-chrome-root-relay,root-chrome-wake}.test.mjs\""},
   "dependencies": {"@cloudflare/puppeteer": "1.4.0"},
   "devDependencies": {"esbuild": "0.28.2"}
 }
